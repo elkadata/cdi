@@ -17,9 +17,9 @@
 
   deployment.yaml
  
- - kubectl apply -f deployment.yaml
- - kubectl get all
- - minikube service nodejs-web-service 
+ -  ```$ kubectl apply -f deployment.yaml ```
+ -  ```$ kubectl get all ```
+ -  ```$ minikube service nodejs-web-service ``` 
   
 ### 3. Summary
 
