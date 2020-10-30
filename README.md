@@ -5,10 +5,10 @@
 - App build with Node.js
 - How to test app :
 
-  ```$ curl http://(ip-address:30001/)``` 
+  ```$ curl http://(IP-Address:30001/)``` 
 
   >>> result : Hello Codemi !!!
-  
+
 - app source :
   /nodejs-web/app.js
 
