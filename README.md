@@ -4,7 +4,11 @@
 
 - App build with Node.js
 - How to test app :
-  $ curl http://(ip-address:30001/) >>> result : Hello Codemi !!!
+
+  ```$ curl http://(ip-address:30001/)``` 
+
+  >>> result : Hello Codemi !!!
+  
 - app source :
   /nodejs-web/app.js
 
