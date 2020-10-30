@@ -38,7 +38,7 @@
 
 ####  c.  HPA (HorizontalPodAutoscaler)
 
-- When the application is deployed, it will create a minimum of 2 nodes and a maximum of 5 nodes
+- When the application is deployed, it will create a minimum of 2 nodes and maximum of 5 nodes
 - We use the Utilization scenario type for CPU and Memory
 
       CPU : 
