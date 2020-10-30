@@ -34,7 +34,7 @@
 ####    b.  Service
 
 - Set target port to 3000 and node port to 30001
-- So we can expose the application using port 3001
+- So we can expose the application using port 30001
 
 ####  c.  HPA (HorizontalPodAutoscaler)
 
