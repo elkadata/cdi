@@ -23,15 +23,15 @@
   
 ### 3. Summary
 
-  a.  Deployment
-      - I've used dionmadyasta/nodejs-web-service:1 for the container that will be run in depoyment
-      - and dionmadyasta/nodejs-web-service:1 has been pushed on the docker-hub
-  b.  Service
-      - Set target port to 3000 and node port to 30001
-      - So we can expose the application using port 3001
-  c.  HPA (HorizontalPodAutoscaler)
-      - When the application is deployed, it will create a minimum of 2 nodes and a maximum of 5 nodes
-      - We use the Utilization scenario type for CPU and Memory
+a.  Deployment
+- I've used dionmadyasta/nodejs-web-service:1 for the container that will be run in depoyment
+- and dionmadyasta/nodejs-web-service:1 has been pushed on the docker-hub
+b.  Service
+- Set target port to 3000 and node port to 30001
+- So we can expose the application using port 3001
+c.  HPA (HorizontalPodAutoscaler)
+- When the application is deployed, it will create a minimum of 2 nodes and a maximum of 5 nodes
+- We use the Utilization scenario type for CPU and Memory
 
       CPU : 
       - If the CPU utilization reaches an average of 70%, the HPA will automatically scale up the node
