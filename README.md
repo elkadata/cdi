@@ -28,7 +28,7 @@
 
 ####    a.  Deployment
 
-- I've used ```dionmadyasta/nodejs-web:1``` for the docker image that will be run in depoyment
+- I've used ```dionmadyasta/nodejs-web:1``` for the docker image that will be run in deployment
 - and ```dionmadyasta/nodejs-web:1``` has been pushed on the docker-hub
 
 ####    b.  Service
