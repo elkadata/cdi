@@ -1,6 +1,6 @@
 ### Simple project for Codemi with Node.js App
 
-### Overview of the app :
+### Overview of the App :
 
 - App build with Node.js
 - How to test app :
